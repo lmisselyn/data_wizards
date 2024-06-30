@@ -4,3 +4,7 @@
 
 venv/
 .venv
+
+# Model outputs
+
+results/
