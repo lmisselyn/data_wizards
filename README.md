@@ -24,6 +24,16 @@ sudo docker run -d -p 5000:5000 nlpclassifier
 -   Address: (http://localhost:5000)
 
 -   Body :
-    '{
-    "text":"Job description"
-    }'
+    `{
+"text":"Job description"
+}`
+
+## Examples
+
+-   "Job Functions* Data Entry for updating company information systems and databases* Reconcile weekly production reports &amp voided powers report* File Production reports, voided powers, &amp exonerations* Order Office Depot supplies* Cover Receptionist (front desk) when needed* Process outgoing mailRequirements* Knowledge in Microsoft Excel, Word and Outlook* Strong Alpha-numeric Data Entry* Attention to detail and accuracy* Ability to work under pressure to meet deadlines\* Excellent team playerStarting pay: $25/HRBenefits:• Full medical and dental benefits, additional voluntary benefits• 401K with matching"
+
+-   Expected result : "The job description is fraudulent"
+
+-   "Job Title: SAS Grid DeveloperDuration: 06+ months contract with potential extensionLocation: Berkeley Heights, NJ"
+
+-   Expected result : "The job description is safe"
