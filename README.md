@@ -17,20 +17,20 @@ sudo docker build -t nlpclassifier .
 sudo docker run -d -p 5000:5000 nlpclassifier
 ```
 
--   Change the port if needed
-
 ## Use of the app
 
 -   Use the API to provide a job description to classify
 
 -   POST request
 
--   Address: (http://localhost:5000)
+-   Address: (http://127.0.0.1:5000/classify)
 
 -   Body :
     `{
 "text":"Job description"
 }`
+
+-   Change the port if needed
 
 ## Examples
 
