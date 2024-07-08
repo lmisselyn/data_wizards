@@ -10,12 +10,14 @@
 
 ## Installation
 
--   open a terminal at the root of the project and execute the following commands
+-   Open a terminal at the root of the project and execute the following commands
 
 ```bash
 sudo docker build -t nlpclassifier .
 sudo docker run -d -p 5000:5000 nlpclassifier
 ```
+
+-   Change the port if needed
 
 ## Use of the app
 
