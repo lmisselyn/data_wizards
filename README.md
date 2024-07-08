@@ -21,6 +21,8 @@ sudo docker run -d -p 5000:5000 nlpclassifier
 
 -   Use the API to provide a job description to classify
 
+-   POST request
+
 -   Address: (http://localhost:5000)
 
 -   Body :
