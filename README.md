@@ -31,14 +31,13 @@ sudo docker run -d -p 5000:5000 nlpclassifier
 }`
 
 - curl request : 
-`curl -X POST http://127.0.0.1:5000/classify \
-     -H "Content-Type: application/json" \
-     -d '{"text":"Job description"}'`
+
+`curl -X POST http://localhost:5000/classify -H "Content-Type: application/json" -d '{"text":"Job description"}'`
 
 
 ## Examples
 
--   "Job Functions* Data Entry for updating company information systems and databases* Reconcile weekly production reports &amp voided powers report* File Production reports, voided powers, &amp exonerations* Order Office Depot supplies* Cover Receptionist (front desk) when needed* Process outgoing mailRequirements* Knowledge in Microsoft Excel, Word and Outlook* Strong Alpha-numeric Data Entry* Attention to detail and accuracy* Ability to work under pressure to meet deadlines\* Excellent team playerStarting pay: $25/HRBenefits:• Full medical and dental benefits, additional voluntary benefits• 401K with matching"
+-   "Job Functions* Data Entry for updating company information systems and databases* Reconcile weekly production reports &amp voided powers report* File Production reports, voided powers, &amp exonerations* Order Office Depot supplies* Cover Receptionist (front desk) when needed* Process outgoing mailRequirements* Knowledge in Microsoft Excel, Word and Outlook* Strong Alpha-numeric Data Entry* Attention to detail and accuracy* Ability to work under pressure to meet deadlines\* Excellent team playerStarting pay: $25/HRBenefits: Full medical and dental benefits, additional voluntary benefits 401K with matching"
 
 -   Expected result : "The job description is fraudulent"
 
