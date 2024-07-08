@@ -30,8 +30,6 @@ sudo docker run -d -p 5000:5000 nlpclassifier
 "text":"Job description"
 }`
 
--   Change the port if needed
-
 ## Examples
 
 -   "Job Functions* Data Entry for updating company information systems and databases* Reconcile weekly production reports &amp voided powers report* File Production reports, voided powers, &amp exonerations* Order Office Depot supplies* Cover Receptionist (front desk) when needed* Process outgoing mailRequirements* Knowledge in Microsoft Excel, Word and Outlook* Strong Alpha-numeric Data Entry* Attention to detail and accuracy* Ability to work under pressure to meet deadlines\* Excellent team playerStarting pay: $25/HRBenefits:• Full medical and dental benefits, additional voluntary benefits• 401K with matching"
